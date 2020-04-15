@@ -319,6 +319,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tabPage25 = new System.Windows.Forms.TabPage();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.tabPage23 = new System.Windows.Forms.TabPage();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
@@ -605,6 +607,7 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnSearchScript = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox10.SuspendLayout();
@@ -649,6 +652,7 @@
             this.tabPage12.SuspendLayout();
             this.tabPage13.SuspendLayout();
             this.tabPage14.SuspendLayout();
+            this.tabPage25.SuspendLayout();
             this.tabPage23.SuspendLayout();
             this.groupBox9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown61)).BeginInit();
@@ -2993,6 +2997,7 @@
             this.tabControl4.Controls.Add(this.tabPage12);
             this.tabControl4.Controls.Add(this.tabPage13);
             this.tabControl4.Controls.Add(this.tabPage14);
+            this.tabControl4.Controls.Add(this.tabPage25);
             this.tabControl4.Name = "tabControl4";
             this.tabControl4.SelectedIndex = 0;
             // 
@@ -3031,6 +3036,18 @@
             // 
             resources.ApplyResources(this.textBox4, "textBox4");
             this.textBox4.Name = "textBox4";
+            // 
+            // tabPage25
+            // 
+            this.tabPage25.Controls.Add(this.textBox7);
+            resources.ApplyResources(this.tabPage25, "tabPage25");
+            this.tabPage25.Name = "tabPage25";
+            this.tabPage25.UseVisualStyleBackColor = true;
+            // 
+            // textBox7
+            // 
+            resources.ApplyResources(this.textBox7, "textBox7");
+            this.textBox7.Name = "textBox7";
             // 
             // comboBox5
             // 
@@ -5815,6 +5832,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.toolsToolStripMenuItem,
@@ -5826,6 +5844,7 @@
             // statusStrip1
             // 
             this.statusStrip1.AllowMerge = false;
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
             resources.ApplyResources(this.statusStrip1, "statusStrip1");
@@ -5884,10 +5903,18 @@
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnSearchScript
+            // 
+            resources.ApplyResources(this.btnSearchScript, "btnSearchScript");
+            this.btnSearchScript.Name = "btnSearchScript";
+            this.btnSearchScript.UseVisualStyleBackColor = true;
+            this.btnSearchScript.Click += new System.EventHandler(this.btnSearchScript_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnSearchScript);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button19);
@@ -5902,6 +5929,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox10.ResumeLayout(false);
@@ -5959,6 +5987,8 @@
             this.tabPage13.PerformLayout();
             this.tabPage14.ResumeLayout(false);
             this.tabPage14.PerformLayout();
+            this.tabPage25.ResumeLayout(false);
+            this.tabPage25.PerformLayout();
             this.tabPage23.ResumeLayout(false);
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
@@ -6570,6 +6600,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn98;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn99;
         private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button btnSearchScript;
+        private System.Windows.Forms.TabPage tabPage25;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
 

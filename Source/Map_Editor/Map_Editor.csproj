@@ -71,6 +71,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Pokemon Esmeralda\NDS\Tools\MKDS Source\bin\Debug\HelixToolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="OpenTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -170,6 +171,7 @@
     <Compile Include="Form9 Wild Editor.Designer.cs">
       <DependentUpon>Form9 Wild Editor.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameInfo.cs" />
     <Compile Include="LibNDSFormats\bytearrayoutputstream.cs" />
     <Compile Include="LibNDSFormats\convertir.cs" />
     <Compile Include="LibNDSFormats\EndianBinaryReader.cs" />
