@@ -11,8 +11,8 @@ Feel free to download these files and edit them! However, please note the follow
 
 -The trainer editor and DPPt wild editor have been updated, and should be fully functional and safe to use
 
--Planned future additions will include an item editor, move editor and Pokémon editor
-
 -Most of the code is quite messy and uncommented
+
+-NOTE: I'm no longer actively working on this and it's unlikely I'll continue development any time soon.
 
 Full credit for the bulk of the code goes to Spiky Eared Pichu, and other contributors to earlier versions of SDSME.
