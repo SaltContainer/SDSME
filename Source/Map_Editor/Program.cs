@@ -22,6 +22,7 @@ namespace WindowsFormsApplication1
         {
             AppDomain.CurrentDomain.AppendPrivatePath("Data");
             Application.EnableVisualStyles();
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.SetCompatibleTextRenderingDefault(false);
             Application.ApplicationExit += new EventHandler(ApplicationExit);
             Application.Run(new Form1());

@@ -11,4 +11,51 @@
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Form1 Main Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form10 3D Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form2 Building Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form3 Trainer Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form3_2 Trainer Class Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form4 Flag Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form4_2 Name Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form5 Event Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form6 Building List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form6_2 Building List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form7 Matrix Viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form8 Sound List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form9 Wild Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LibNDSFormats\nclr_e.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SPK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>
