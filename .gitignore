@@ -17,20 +17,20 @@
 mono_crash.*
 
 # Build results
-Source/[Dd]ebug/
-Source/[Dd]ebugPublic/
-Source/[Rr]elease/
-Source/[Rr]eleases/
-Source/x64/
-Source/x86/
-Source/[Ww][Ii][Nn]32/
-Source/[Aa][Rr][Mm]/
-Source/[Aa][Rr][Mm]64/
-Source/bld/
-Source/[Bb]in/
-Source/[Oo]bj/
-Source/[Ll]og/
-Source/[Ll]ogs/
+Source/Map_Editor/[Dd]ebug/
+Source/Map_Editor/[Dd]ebugPublic/
+Source/Map_Editor/[Rr]elease/
+Source/Map_Editor/[Rr]eleases/
+Source/Map_Editor/x64/
+Source/Map_Editor/x86/
+Source/Map_Editor/[Ww][Ii][Nn]32/
+Source/Map_Editor/[Aa][Rr][Mm]/
+Source/Map_Editor/[Aa][Rr][Mm]64/
+Source/Map_Editor/bld/
+Source/Map_Editor/[Bb]in/
+Source/Map_Editor/[Oo]bj/
+Source/Map_Editor/[Ll]og/
+Source/Map_Editor/[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 Source/.vs/
@@ -41,8 +41,8 @@ Source/.vs/
 Generated\ Files/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+Source/Map_Editor/[Tt]est[Rr]esult*/
+Source/Map_Editor/[Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
@@ -475,3 +475,18 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/Source/Map_Editor/obj/Debug/net7.0-windows/de/SDSME.resources.dll
+/Source/Map_Editor/obj/Debug/net7.0-windows/es/SDSME.resources.dll
+/Source/Map_Editor/obj/Debug/net7.0-windows/fr/SDSME.resources.dll
+/Source/Map_Editor/obj/Debug/net7.0-windows/it/SDSME.resources.dll
+/Source/Map_Editor/obj/Debug/net7.0-windows/zh/SDSME.resources.dll
+/Source/Map_Editor/obj/project.nuget.cache
+/Source/Map_Editor/obj/project.assets.json
+/Source/Map_Editor/obj/Map_Editor.csproj.nuget.dgspec.json
+/Source/Map_Editor/obj/Debug/net7.0-windows/SDSME.pdb
+/Source/Map_Editor/obj/Debug/net7.0-windows/SDSME.dll
+/Source/Map_Editor/obj/Debug/net7.0-windows/SDSME.designer.deps.json
+/Source/Map_Editor/obj/Debug/net7.0-windows/Map_Editor.csproj.FileListAbsolute.txt
+/Source/Map_Editor/obj/Debug/net7.0-windows/Map_Editor.csproj.CoreCompileInputs.cache
+/Source/Map_Editor/obj/Debug/net7.0-windows/Map_Editor.csproj.AssemblyReference.cache
+/Source/Map_Editor/obj/Debug/net7.0-windows/Map_Editor.assets.cache
